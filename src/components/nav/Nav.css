@@ -1,0 +1,31 @@
+.n {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    background-color: lightcoral;
+    padding: 0;
+}
+
+#logo-nav {
+    /* background-color: blue; */
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    padding-left: 1rem;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    /* background-color: red; */
+    flex: 3;
+    list-style: none;
+    align-items: center;
+}
+

@@ -1,3 +1,4 @@
+import React from "react";
 import "./Toggle.css"
 import Sun from "../../img/One Punch Man OK.jpg"
 import Moon from "../../img/Diamond.png"

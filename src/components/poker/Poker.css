@@ -1,0 +1,92 @@
+.pkr {
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-area {
+    width: 80vw;
+    height: 80vh;
+    background-color: slateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    background-color: black;    
+    margin: 1rem;
+    padding: 1rem;    /* border-radius: 20%; */
+    flex: 1
+
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.player-name {
+    text-decoration: underline;
+}
+.player-img {
+    width: 4rem;
+    background-color: rgb(140, 174, 207);
+}
+
+
+.pot {
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.modifier {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.addsub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addsub button {
+    border: none;
+    color: white;
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 0 0 0;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 2rem;
+}
+
+.addButton {
+    background-color: rgb(23, 158, 90);
+}
+
+.subButton {
+    background-color: rgb(179, 37, 27);
+}
+
+.betDial {
+    width: 80%;
+    align-self: center;
+    font-size: 2rem;
+}

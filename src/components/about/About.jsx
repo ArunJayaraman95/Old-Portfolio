@@ -1,3 +1,4 @@
+import React from "react";
 import "./About.css";
 import Award from "../../img/ChessBoard.png";
 
@@ -9,7 +10,7 @@ return (
         <div className="a-card">
         <img
             src="https://miro.medium.com/max/1000/0*kBHpKva09AsGj7RQ"
-            alt="Code Picture"
+            alt="Code"
             className="a-img"
         />
         </div>
@@ -26,7 +27,7 @@ return (
         in eligendi fugiat!
         </p>
         <div className="a-award">
-        <img src={Award} alt="" className="a-award-img" />
+        <img src={Award} alt="Award" className="a-award-img" />
         <div className="a-award-texts">
             <h4 className="a-award-title">
             The Award of The Awesome, 2001-Present

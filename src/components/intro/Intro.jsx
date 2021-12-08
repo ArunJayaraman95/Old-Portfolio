@@ -1,3 +1,4 @@
+import React from "react";
 import "./Intro.css"
 import BlenderLogo from "../../img/Blender Logo.png"
 
@@ -17,13 +18,13 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a Math and Computer Science senior at Wayne State University.
+                        I am a Math and Computer Science student at Wayne State University.
                     </p>
                 </div>
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <img src={BlenderLogo} alt="Profile Photo" className="i-img" />
+                <img src={BlenderLogo} alt="Profile" className="i-img" />
             </div>
         </div>
     )
