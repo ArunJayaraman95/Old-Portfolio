@@ -14,11 +14,11 @@ const Nav = () => {
         <div className = "n" >
             <nav>
                 <Link style = {navStyle} to = "/Portfolio">
-                <h3 id = "logo-nav">Logo</h3>
+                <h3 id = "logo-nav">Home</h3>
                 </Link>
                 <ul className = "nav-links">
                     <Link style = {navStyle} to="/tools">
-                        <li>Tools</li>
+                        <li>Grade Calculator</li>
                     </Link>
                     <Link style = {navStyle} to = "/poker">
                         <li>Poker</li>

@@ -10,6 +10,70 @@
     height: 80vh;
     flex: 9;
     margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 16fr;
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+.dayLabel {
+    background-color: brown;
+}
+
+.timeLabel {
+    border: 1px solid black;
+    height: 100%;
+}
+
+.day {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(192, 1fr);
+    background-color: green;
+    font-size: 0.00001px;
+    /* font-size: 12px;
+    background-color: green;
+    width: 99%; */
+}
+
+#sunday {
+    background-color: #CCD;
+}
+#monday {
+    background-color: #BBC;
+}
+#tuesday {
+    background-color: #CCD;
+}
+#wednesday {
+    background-color: #BBC;
+}
+#thursday {
+    background-color: #CCD;
+}
+#friday {
+    background-color: #BBC;
+}
+#saturday {
+    background-color: #CCD;
+}
+
+
+#a {
+    background-color: blueviolet;
+    grid-row: 42/53;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.calRowLabels {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: cornflowerblue;
 }
 
 .courseInfo {
@@ -29,6 +93,6 @@
 .prevnext {
     margin: 1rem;
     padding: 1rem;
-    color: red;
+    border-radius: 15%;
 }
 
