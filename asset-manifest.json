@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f594c7ec.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f219571b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f219571b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.7512dd15.chunk.css",
+    "main.js": "/Portfolio/static/js/main.97e1a459.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.97e1a459.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.ae2dea17.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.ae2dea17.js.map",
     "static/js/2.da6c85b6.chunk.js": "/Portfolio/static/js/2.da6c85b6.chunk.js",
     "static/js/2.da6c85b6.chunk.js.map": "/Portfolio/static/js/2.da6c85b6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.f594c7ec.chunk.css.map": "/Portfolio/static/css/main.f594c7ec.chunk.css.map",
+    "static/css/main.7512dd15.chunk.css.map": "/Portfolio/static/css/main.7512dd15.chunk.css.map",
     "static/js/2.da6c85b6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.da6c85b6.chunk.js.LICENSE.txt",
     "static/media/Blender Logo.5b7ce738.png": "/Portfolio/static/media/Blender Logo.5b7ce738.png",
     "static/media/ChessBoard.b10caf2d.png": "/Portfolio/static/media/ChessBoard.b10caf2d.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae2dea17.js",
     "static/js/2.da6c85b6.chunk.js",
-    "static/css/main.f594c7ec.chunk.css",
-    "static/js/main.f219571b.chunk.js"
+    "static/css/main.7512dd15.chunk.css",
+    "static/js/main.97e1a459.chunk.js"
   ]
 }
