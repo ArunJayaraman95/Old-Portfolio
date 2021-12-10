@@ -1,5 +1,5 @@
 .schedule {
-    height: 94vh;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(192, 1fr);
     background-color: green;
-    font-size: 0.00001px;
+    font-size: 0.6px;
     /* font-size: 12px;
     background-color: green;
     width: 99%; */

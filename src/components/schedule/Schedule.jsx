@@ -1,14 +1,22 @@
 import "./Schedule.css"
 import React from "react";
+import {Inject, ScheduleComponent, Week} from '@syncfusion/ej2-react-schedule'
 
-
-const classes = [
-    {name: "Statistics", start: 1030, end: 1120, days:[1,3,5]}
-]
+const 
 
 const Schedule = () => {
+
+    private localData: classes = [
+        {name: "Statistics", start: 1030, end: 1120, days:[1,3,5]}
+    ]
+
     return (
-        <div className = "schedule">
+        <div className="schedule">
+            <ScheduleComponent>
+                <Inject services = {[Week]}/>
+            </ScheduleComponent>
+        </div>
+        /* <div className = "schedule">
             <div className = "calendarArea">
                 <div className="dayLabel">Time</div>
                 <div className="dayLabel">Sunday</div>
@@ -38,7 +46,6 @@ const Schedule = () => {
                     <div className="timeLabel">10:00 PM</div>
                 </div>
 
-                {/* Not doing separate divs for each day, initially gonna make another container for the big bottom right grid part */}
 
                 <div className = "day" id = "sunday">
                     <div id="a">d</div>
@@ -73,7 +80,7 @@ const Schedule = () => {
                     <button type = "button" className = "prevnext">Next</button>
                 </div>
             </div>
-        </div>
+        </div> */
     )
 }
 
